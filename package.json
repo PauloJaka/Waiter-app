@@ -1,0 +1,7 @@
+{
+  "name": "api",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
