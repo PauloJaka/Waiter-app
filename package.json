@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/index.ts",
-    "start" : "node dist"
+    "start": "node dist"
   },
   "dependencies": {
     "express": "^4.18.2",
