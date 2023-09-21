@@ -7,7 +7,7 @@ export function Orders() {
         <header>
           <span>🕗</span>
           <strong>Fila de espera</strong>
-          <span> (1)</span>
+          <span>(1)</span>
         </header>
       </Board>
     </Container>
