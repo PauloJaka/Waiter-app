@@ -6,6 +6,8 @@ export const Container = styled.header`
   justify-content: center;
   height: 198px;
   align-items: center;
+
+
 `;
 
 export const Content = styled.div`
@@ -14,6 +16,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 
   .page-details {
     h1{

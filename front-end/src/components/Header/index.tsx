@@ -10,7 +10,7 @@ export function Header () {
           <h1>Pedidos</h1>
           <h2>Acompanhe os pedidos dos clientes</h2>
         </div>
-        <img src={logo} alt="Waiter-app" />
+        <img src={logo} alt="Waiter-app" style={{ maxWidth: '100%' }}/>
       </Content>
     </Container>
   );
