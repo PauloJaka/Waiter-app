@@ -16,6 +16,16 @@ const orders: Order[] = [
         },
         'quantity': 3,
         '_id': '64f667e9195a617241541402'
+      },
+      {
+        'product': {
+          '_id': '64f5056137fe46ad27140634',
+          'name': 'coca-cola',
+          'imagePath': '1693779297160-coca-cola.png',
+          'price': 3.5,
+        },
+        'quantity': 3,
+        '_id': '64f667e9195a617241541403'
       }
     ],
   }
