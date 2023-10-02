@@ -6,6 +6,7 @@ import { Overlay, ModalBody, OrderDetails, Actions } from './style';
 interface OrderModalProps {
     visible : boolean;
     order: Order | null;
+    onClose: () => void;
 }
 
 export function OrderModal ({ visible, order}: OrderModalProps) {
@@ -79,7 +80,7 @@ export function OrderModal ({ visible, order}: OrderModalProps) {
             <strong>Iniciar Produção</strong>
           </button>
 
-          <button type='button' className='secundary'>
+          <button type='button' className='secondary'>
               Cancelar Pedido
           </button>
         </Actions>

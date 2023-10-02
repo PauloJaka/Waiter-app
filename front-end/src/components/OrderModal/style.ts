@@ -119,6 +119,8 @@ export const OrderDetails = styled.div`
 
 export const Actions = styled.footer`
   display: flex;
+  flex-direction: column;
+  margin-top: 32px;
 
   .primary{
     background: #333333;
@@ -137,7 +139,7 @@ export const Actions = styled.footer`
     font-weight: bold;
     border:0;
     background: transparent;
-    margin-top: 16px;
+    margin-top: 12px;
   }
 `;
 
