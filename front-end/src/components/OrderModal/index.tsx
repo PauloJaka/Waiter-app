@@ -2,6 +2,7 @@ import closeIcon from '../../assets/images/close-icon.svg';
 import { Order } from '../../types/Order';
 import { formatCurrency } from '../../utils/formatCurrency';
 import { Overlay, ModalBody, OrderDetails, Actions } from './style';
+import { useEffect } from 'react';
 
 interface OrderModalProps {
     visible : boolean;
@@ -9,7 +10,15 @@ interface OrderModalProps {
     onClose: () => void;
 }
 
-export function OrderModal ({ visible, order}: OrderModalProps) {
+export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
+
+  useEffect(() => {
+    document.addEventListener('keydown', (event) => {
+      if(event.key == 'Escape') {
+        onClose();
+      }
+    });
+  },[]);
 
   if(!visible || !order){
     return null;
@@ -26,7 +35,7 @@ export function OrderModal ({ visible, order}: OrderModalProps) {
         <header>
           <strong>Mesa {order.table}</strong>
 
-          <button type='button'>
+          <button type='button' onClick={onClose}>
             <img src={closeIcon} alt="Out-icon" />
           </button>
         </header>
