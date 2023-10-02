@@ -92,6 +92,7 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
           <button type='button' className='secondary'>
               Cancelar Pedido
           </button>
+
         </Actions>
       </ModalBody>
     </Overlay>
