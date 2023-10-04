@@ -20,6 +20,7 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
     });
   },[]);
 
+
   if(!visible || !order){
     return null;
   }
