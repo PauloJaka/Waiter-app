@@ -30,11 +30,13 @@ export function OrdersBoard ({icon, title, orders}: OrderBoardProps) {
         visible = {isModalVisible}
         order = {selectOrder}
         onClose = {handleCloseModal}/>
+
       <header>
         <span>{icon}</span>
         <strong>{title}</strong>
         <span>({orders.length})</span>
       </header>
+
       <OrdersContainer>
         {orders.length > 0 && (
           orders.map((order) => (
