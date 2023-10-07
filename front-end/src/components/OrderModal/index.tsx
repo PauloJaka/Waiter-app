@@ -20,7 +20,6 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
       }
     }
     document.addEventListener('keydown', handleKeyDown);
-
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
