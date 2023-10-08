@@ -4,7 +4,6 @@ import path from "node:path";
 
 import { router } from "./router";
 
-
 mongoose.connect('mongodb://localhost:27017')
 .then(() => {
 
