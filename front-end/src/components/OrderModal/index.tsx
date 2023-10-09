@@ -34,7 +34,6 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
     return total + (product.price * quantity);
   },0);
 
-
   return (
     <Overlay>
       <ModalBody>
