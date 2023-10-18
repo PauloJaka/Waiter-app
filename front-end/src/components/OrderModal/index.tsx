@@ -25,7 +25,6 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
     };
   },[onClose]);
 
-
   if(!visible || !order){
     return null;
   }
