@@ -30,7 +30,6 @@ const orders: Order[] = [
   }
 ];
 
-
 export function Orders() {
   return (
     <Container>
