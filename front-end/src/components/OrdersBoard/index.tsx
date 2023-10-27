@@ -1,7 +1,7 @@
+import { useState } from 'react';
 import { Order } from '../../types/Order';
 import { OrderModal } from '../OrderModal';
 import { Board, OrdersContainer } from './styles';
-import { useState } from 'react';
 
 interface OrderBoardProps{
   icon: string;
