@@ -72,7 +72,6 @@ export function OrderModal ({ visible, order, onClose}: OrderModalProps) {
                   alt={product.name}
                   width="56"
                   height="28.41" />
-
                 <span className='quantity'>{quantity}x</span>
                 <div className="product-details">
                   <strong>{product.name}</strong>
